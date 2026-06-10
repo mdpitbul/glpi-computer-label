@@ -28,9 +28,10 @@ Simple GLPI 11 plugin for printing configurable asset labels with QR codes.
 
 ## Installation
 
-1. Copy the plugin to:
+1. Copy plugin files to:
 
-   glpi/plugins/computerlabel
+glpi/plugins/computerlabel/
+Plugin directory name must remain "computerlabel".
 
 2. Install and enable the plugin from Setup → Plugins
 3. Open plugin settings and configure label options
@@ -38,11 +39,25 @@ Simple GLPI 11 plugin for printing configurable asset labels with QR codes.
 
 ## Tested with
 
-- GLPI 11.0.6
+- GLPI 11.x
+
+Tested on GLPI 11.0.6
 
 ## License
 
 GPL v2+
+
+## Roadmap
+
+- Multiple label templates
+
+- Brother label printer support
+
+- Zebra printer support
+
+- Custom logo support
+
+- PDF export
 
 ## Author
 
