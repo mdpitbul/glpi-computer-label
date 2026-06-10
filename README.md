@@ -2,6 +2,16 @@
 
 Simple GLPI 11 plugin for printing configurable asset labels with QR codes.
 
+## Screenshots
+
+### Settings
+
+![Settings](docs/settings.png)
+
+### Asset Label
+
+![Asset Label](docs/asset_label_demo.png)
+
 ## Features
 
 - Adds an Asset Label tab to computer assets
