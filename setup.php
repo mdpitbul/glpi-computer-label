@@ -17,7 +17,7 @@ function plugin_init_computerlabel() {
 
 function plugin_version_computerlabel() {
    return [
-      'name'           => 'Computer Label',
+      'name'           => 'Asset  Label',
       'version'        => PLUGIN_COMPUTERLABEL_VERSION,
       'author'         => 'Andrey Sennikov',
       'license'        => 'GPLv2+',

@@ -30,7 +30,7 @@ $show_qr      = (int)($config['show_qr_code'] ?? 1);
 $width        = (int)($config['label_width'] ?? 50);
 $height       = (int)($config['label_height'] ?? 25);
 
-Html::header('Computer Label', $_SERVER['PHP_SELF'], 'config', 'plugins');
+Html::header('Asset Label', $_SERVER['PHP_SELF'], 'config', 'plugins');
 
 if ($saved) {
    echo "<div class='alert alert-success'>Settings saved</div>";
